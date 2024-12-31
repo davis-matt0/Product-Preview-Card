@@ -88,7 +88,7 @@ p {
 }
 
 .img-container {
-  background: url(/images/image-product-mobile.jpg);
+  background: url("../images/image-product-mobile.jpg");
   background-size: contain;
   background-repeat: round;
   width: 90%;
