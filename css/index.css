@@ -68,6 +68,11 @@ p {
   transform: scale(0.98);
 }
 
+.add-to-cart-btn:hover,
+.add-to-cart-btn:focus {
+  background-color: hsl(158, 33%, 24%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -79,7 +84,18 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 66%, 55%);
+}
+
+.img-container {
+  background: url(/images/image-product-mobile.jpg);
+  background-size: contain;
+  background-repeat: round;
+  width: 90%;
+  margin: 7em auto 0 auto;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  padding: 8.5em;
 }
 
 .card {
